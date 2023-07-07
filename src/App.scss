@@ -1,0 +1,80 @@
+$primary: #0B2447;
+$secondary: #19376D;
+$bg-color: #576CBC;
+$frt-color: #A5D7E8;
+
+.navbar{
+    width:100%;
+    height:50px;
+    background-color: $primary;
+    color:white;
+
+    display: flex;
+    
+
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.getusers{
+    position: absolute;
+    right:0;
+    margin: 8px 40px 0 0;
+    font-size: 25px;
+    padding: 2px 7px;
+    border-radius: 5px;
+    border-color: $primary;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $frt-color;
+        border:3px solid white;
+    }
+    
+}
+
+.outer{
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns:auto auto auto;
+    justify-content: center;
+}
+.initial{
+    justify-content: center;
+    margin-top:250px;
+    font-size: 30px;
+}
+.card{
+    width:320px;
+    height:max-content;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: $bg-color;
+    box-shadow: 0px 8px 13px -1px rgba(11, 36, 71, 1);
+    // box-shadow: 0px 8px 13px -1px #78e752;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.card img{
+    
+    border-radius: 8px;
+    padding-bottom: 2px;
+}
+
+b{
+    color:black;
+}
+.card p{
+    color: rgb(6, 13, 54);
+    font-size: 20px;
+    margin-top: 4px;
+}
+.Ldr-div{
+    margin-top: 200px;
+}

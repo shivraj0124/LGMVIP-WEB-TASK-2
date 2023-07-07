@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #0B2447;
   color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  margin-top: 10px;
+  margin-left: 100px;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.getusers {
+  position: absolute;
+  right: 0;
+  margin: 8px 40px 0 0;
+  font-size: 25px;
+  padding: 2px 7px;
+  border-radius: 5px;
+  border-color: #0B2447;
+  cursor: pointer;
 }
+.getusers:hover {
+  background-color: #A5D7E8;
+  border: 3px solid white;
+}
+
+.outer {
+  display: grid;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.initial {
+  justify-content: center;
+  margin-top: 250px;
+  font-size: 30px;
+}
+
+.card {
+  width: 320px;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #576CBC;
+  box-shadow: 0px 8px 13px -1px rgb(11, 36, 71);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 8px;
+  padding-bottom: 2px;
+}
+
+b {
+  color: black;
+}
+
+.card p {
+  color: rgb(6, 13, 54);
+  font-size: 20px;
+  margin-top: 4px;
+}/*# sourceMappingURL=App.css.map */
