@@ -42,7 +42,7 @@ export default function Home() {
             <div className="outer">
                 { !loader ?
                     content ?                    
-                        <h1 className='initial' >Click on Get Users to get the users informaton</h1>
+                        <h1 className='initial' >Click on Get Users to get the users information</h1>
                         :""
                        :"" 
                 }
